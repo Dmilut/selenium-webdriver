@@ -9,7 +9,6 @@ public class Test {
 
 		System.setProperty("webdriver.gecko.driver", "src/main/resources/geckodriver");
 		FirefoxOptions options = new FirefoxOptions();
-		//options.setCapability("marionette", false);
 		options.setLogLevel(FirefoxDriverLogLevel.TRACE);
 
 		WebDriver driver = new FirefoxDriver(options);
